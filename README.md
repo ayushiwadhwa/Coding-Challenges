@@ -18,12 +18,12 @@ To add your own solutions, feel free to fork this repo and create your own folde
 a balanced tree is defined to be a tree such that no two leaf nodes differ in distance
 from the root by more than one.  
 ```boolean isBalanced(TreeNode n)```  
-Source: Cracking the Coding Interview V5
+*Source: Cracking the Coding Interview V5*
 
 2. Given a directed graph, design an algorithm to find out whether there is a route
 between two nodes.  
-```boolean isDirectedRoute(Vertex start, Vertex end, Graph g)```
-Source: Cracking the Coding Interview V5
+```boolean isDirectedRoute(Vertex start, Vertex end, Graph g)```  
+*Source: Cracking the Coding Interview V5*
 
 3. Given a sorted (increasing order) array, write an algorithm to create a binary tree with
 minimal height.  
