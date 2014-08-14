@@ -208,4 +208,36 @@ public class TreesAndGraphs {
 				isSameTree(t1.right, t2.right);
 		}
 	}
+
+	/*
+	 * Problem 9
+	 */
+	public static void printPaths(TreeNode root) {
+		printPathsHelper(root, new ArrayList<Integer>());
+	}
+
+	private static void printPathsHelper(TreeNode node, ArrayList<Integer> path) {
+		if (node != null) {
+			int sum = 0;
+			for (int i = path.size() - 1; i >= 0; i--) {
+				if (sum == node.data) {
+					for (int j = i; j < path.size(); j++) {
+						System.out.print(path.get(j) + " ");
+					}
+					System.out.println();
+				} else if (sum > node.data) {
+					break;
+				}
+			}
+			path.add(node.data);
+			List<Integer> pathLeft = new ArrayList<Integer>();
+			List<Integer> pathRight = new ArrayList<Integer>();
+			for (int i = 0; i < path.size(); i++) {
+				pathLeft.add(path.get(i));
+				pathRight.add(path.get(i));
+			}
+			printPathsHelper(node.left, path);
+			printPathsHelper(node.right, path);
+		}
+	}
 }
