@@ -8,7 +8,9 @@ To add your own solutions, fork this repo and create your own folder **LANGUAGE-
 1. 
 
 ## Linked Lists
-1. 
+1. Write code to remove duplicates from an unsorted linked list.  
+```void removeDuplicates(LLNode node)```  
+*Source: Cracking the Coding Interview V5*
 
 ## Stacks and Queues
 1. 
