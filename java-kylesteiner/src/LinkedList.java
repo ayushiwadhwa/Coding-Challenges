@@ -17,4 +17,28 @@ public class LinkedList {
 			cur = cur.next;
 		}
 	}
+
+	/*
+	 * Problem 2
+	 */
+	public static LLNode KthFromLast(LLNode node, int k) {
+		if (k <= 0) return null;
+
+		LLNode front = node;
+		LLNode back = node;
+
+		// Set front and back pointers
+		int diff = 0;
+		while (back != null && diff++ < k - 1) {
+			back = back.next;
+		}
+		if (back == null) return null;
+
+		// Shift front and back pointers until end of LinkedLIst
+		while (back != null) {
+			back = back.next;
+			front = front.next;
+		}
+		return front;
+	}
 }

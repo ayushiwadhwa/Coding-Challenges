@@ -12,6 +12,10 @@ To add your own solutions, fork this repo and create your own folder **LANGUAGE-
 ```void removeDuplicates(LLNode node)```  
 *Source: Cracking the Coding Interview V5*
 
+2. Write an algorithm to find the kth to last element of a singly linked list.  
+```LLNode KthFromLast(LLNode node, int k)```
+*Source: Cracking the Coding Interview V5*
+
 ## Stacks and Queues
 1. 
 
