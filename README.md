@@ -16,6 +16,10 @@ To add your own solutions, fork this repo and create your own folder **LANGUAGE-
 ```LLNode KthFromLast(LLNode node, int k)```  
 *Source: Cracking the Coding Interview V5*
 
+3. Implement an algorithm to delete a node from a single linked list, given only access to that node.  
+```void deleteNode(LLNode n, LLNode list)```  
+*Source: Cracking the Coding Interview V5*
+
 ## Stacks and Queues
 1. 
 

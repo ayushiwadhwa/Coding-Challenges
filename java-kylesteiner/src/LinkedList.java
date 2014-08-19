@@ -4,6 +4,8 @@ import java.util.Map;
 public class LinkedList {
 	/*
 	 * Problem 1
+	 * Runtime: O(n)
+	 * Memory: O(n)
 	 */
 	public static void removeDuplicates(LLNode node) {
 		Map<Integer, Boolean> nodes = new HashMap<Integer, Boolean>();
@@ -20,6 +22,7 @@ public class LinkedList {
 
 	/*
 	 * Problem 2
+	 * Runtime: O(n)
 	 */
 	public static LLNode KthFromLast(LLNode node, int k) {
 		if (k <= 0) return null;
@@ -40,5 +43,29 @@ public class LinkedList {
 			front = front.next;
 		}
 		return front;
+	}
+
+	/*
+	 * Problem 3
+	 * Runtime: O(n)
+	 */
+	public static void deleteNode(LLNode n, LLNode list) {
+		if (n == null || list == null) {
+			return;
+		} else if (list == n) {
+			list = list.next;
+			return;
+		}
+
+		LLNode prev = list;
+		LLNode cur = list.next;
+		while (cur != null) {
+			if (cur == n) {
+				prev.next = cur.next;
+				return;
+			}
+			prev = prev.next;
+			cur = cur.next;
+		}
 	}
 }
