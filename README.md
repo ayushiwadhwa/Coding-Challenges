@@ -1,9 +1,13 @@
-Coding Challenges
-=========
+# Coding Challenges
 A selection of difficult coding problems that can be solved in any programming language. The problems are divided into multiple categories, and each category has its own set of questions.
 
-To add your own solutions, fork this repo and create your own folder **LANGUAGE-GITHUBHANDLE** under the root directory.
+To add your own solutions, fork this repo and create your own **LANGUAGE-GITHUBHANDLE** folder under the root directory.
 
+**Sources**
+- Cracking the Coding Interview V5  
+- Previous interviews
+
+---
 ## Arrays
 - Sort an array such that odd numbers are in front of even numbers and their relative order does not change.
 
@@ -37,18 +41,14 @@ To add your own solutions, fork this repo and create your own folder **LANGUAGE-
 - How do you quickly count the number of set bits in a 32-bit integer in linear time? In constant time?
 
 ## Linked Lists
-- Write code to remove duplicates from an unsorted linked list.  
-*Source: Cracking the Coding Interview*
+- Write code to remove duplicates from an unsorted linked list.
 
-- Write an algorithm to find the kth to last element of a singly linked list.  
-*Source: Cracking the Coding Interview*
+- Write an algorithm to find the kth to last element of a singly linked list.
 
-- Implement an algorithm to delete a node from a single linked list, given only access to that node.  
-*Source: Cracking the Coding Interview*
+- Implement an algorithm to delete a node from a single linked list, given only access to that node.
 
 - Write code to partition a lined list around a value x, such that all nodes less than x come
-before all nodes greater than or equal to x.  
-*Source: Cracking the Coding Interview*
+before all nodes greater than or equal to x.
 
 - Find a pair of elements from two sorted lists for which the sum of the elements is a certain value.
 
@@ -114,41 +114,32 @@ before all nodes greater than or equal to x.
 ## Trees and Graphs
 - Implement a function to check if a tree is balanced. For the purposes of this question,
 a balanced tree is defined to be a tree such that no two leaf nodes differ in distance
-from the root by more than one.  
-*Source: Cracking the Coding Interview*
+from the root by more than one.
 
 - Given a directed graph, design an algorithm to find out whether there is a route
-between two nodes.  
-*Source: Cracking the Coding Interview*
+between two nodes
 
 - Given a sorted (increasing order) array, write an algorithm to create a binary tree with
-minimal height.  
-*Source: Cracking the Coding Interview*
+minimal height.
 
 - Given a binary search tree, design an algorithm which creates a linked list of all the
-nodes at each depth (i.e., if you have a tree with depth D, you'll have D linked lists).  
-*Source: Cracking the Coding Interview*
+nodes at each depth (i.e., if you have a tree with depth D, you'll have D linked lists).
 
-- Implement a function to check if a binary tree is a binary search tree.  
-*Source: Cracking the Coding Interview*
+- Implement a function to check if a binary tree is a binary search tree.
 
 - Write an algorithm to find the 'next' node (i.e., in-order successor) of a given node in
-a binary search tree where each node has a link to its parent.  
-*Source: Cracking the Coding Interview*
+a binary search tree where each node has a link to its parent.
 
 - Design an algorithm and write code to find the first common ancestor of two nodes
 in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not
-necessarily a binary search tree.  
-*Source: Cracking the Coding Interview*
+necessarily a binary search tree.
 
 - You have two very large binary trees: T1, with millions of nodes, and T2, with hundreds
-of nodes. Create an algorithm to decide if T2 is a subtree of T1.  
-*Source: Cracking the Coding Interview*
+of nodes. Create an algorithm to decide if T2 is a subtree of T1.
 
 - You are given a binary tree in which each node contains a value. Design an algorithm
 to print all paths which sum up to that value. Note that it can be any path in the tree -
-it does not have to start at the root.  
-*Source: Cracking the Coding Interview*
+it does not have to start at the root.
 
 - Find a common ancestor of two different leaf nodes.
 
