@@ -81,7 +81,7 @@ before all nodes greater than or equal to x.
 ## Sets
 - Write a function that prints out all subsetes of a given set of numbers.
 
-# Stacks
+## Stacks
 - Find the element in the middle position of a stack. Optimize for space.
 
 ## Strings
@@ -245,7 +245,6 @@ it does not have to start at the root.
 
 - Build a recommendation system for restaurants on Yelp.
 
-## Non-Coding
 - What features are missing from your favorite programming language?
 
 - How would you implement [company]'s product?
