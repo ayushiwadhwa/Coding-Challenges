@@ -20,6 +20,11 @@ To add your own solutions, fork this repo and create your own folder **LANGUAGE-
 ```void deleteNode(LLNode n, LLNode list)```  
 *Source: Cracking the Coding Interview V5*
 
+- Write cod to partition a lined list around a value x, such that all nodes less than x come
+before all nodes greater than or equal to x.  
+```void partition(int x, LLNode list)```  
+*Source: Cracking the Coding Interview V5*
+
 ## Stacks and Queues
 - 
 

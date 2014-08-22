@@ -68,4 +68,35 @@ public class LinkedList {
 			cur = cur.next;
 		}
 	}
+
+	/*
+	 * Problem 4
+	 * O(n)
+	 */
+	public static void partition(int x, LLNode list) {
+		if (list == null) return;
+		LLNode lt = null;
+		LLNode gte = null;
+		LLNode cur = list;
+		while (cur != null) {
+			LLNode next = cur.next;
+			if (cur.data < x) {
+				if (lt == null) {
+					lt = cur;
+				} else {
+					lt.next = cur;
+				}
+			} else {
+				if (gte == null) {
+					lt = cur;
+				} else {
+					lt.next = cur;
+				}
+			}
+			cur.next = null;
+			cur = next;
+		}
+		list = lt;
+		lt.next = gte;
+	}
 }
