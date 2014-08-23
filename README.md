@@ -3,7 +3,7 @@ A selection of difficult coding problems that can be solved in any programming l
 
 To add your own solutions, fork this repo and create your own **LANGUAGE-GITHUBHANDLE** folder under the root directory.
 
-**Sources**
+#### Sources
 - Cracking the Coding Interview V5  
 - Previous interviews
 
@@ -40,14 +40,13 @@ To add your own solutions, fork this repo and create your own **LANGUAGE-GITHUBH
 - How do you quickly count the number of set bits in a 32-bit integer in linear time? In constant time?
 
 ## Linked Lists
-- Write code to remove duplicates from an unsorted linked list.
+- Write code to remove duplicates from an unsorted linked list. **[CTCI, 77]**
 
-- Write an algorithm to find the kth to last element of a singly linked list.
+- Write an algorithm to find the kth to last element of a singly linked list. **[CTCI, 77]**
 
-- Implement an algorithm to delete a node from a single linked list, given only access to that node.
+- Implement an algorithm to delete a node from a single linked list, given only access to that node. **[CTCI, 77]**
 
-- Write code to partition a lined list around a value x, such that all nodes less than x come
-before all nodes greater than or equal to x.
+- Write code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than or equal to x. **[CTCI, 77]**
 
 - Find a pair of elements from two sorted lists for which the sum of the elements is a certain value.
 
@@ -113,32 +112,32 @@ before all nodes greater than or equal to x.
 ## Trees and Graphs
 - Implement a function to check if a tree is balanced. For the purposes of this question,
 a balanced tree is defined to be a tree such that no two leaf nodes differ in distance
-from the root by more than one.
+from the root by more than one. **[CTCI, 86]**
 
 - Given a directed graph, design an algorithm to find out whether there is a route
-between two nodes
+between two nodes. **[CTCI, 86]**
 
 - Given a sorted (increasing order) array, write an algorithm to create a binary tree with
-minimal height.
+minimal height. **[CTCI, 86]**
 
 - Given a binary search tree, design an algorithm which creates a linked list of all the
-nodes at each depth (i.e., if you have a tree with depth D, you'll have D linked lists).
+nodes at each depth (i.e., if you have a tree with depth D, you'll have D linked lists). **[CTCI, 86]**
 
-- Implement a function to check if a binary tree is a binary search tree.
+- Implement a function to check if a binary tree is a binary search tree. **[CTCI, 86]**
 
 - Write an algorithm to find the 'next' node (i.e., in-order successor) of a given node in
-a binary search tree where each node has a link to its parent.
+a binary search tree where each node has a link to its parent. **[CTCI, 86]**
 
 - Design an algorithm and write code to find the first common ancestor of two nodes
 in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not
-necessarily a binary search tree.
+necessarily a binary search tree. **[CTCI, 86]**
 
 - You have two very large binary trees: T1, with millions of nodes, and T2, with hundreds
-of nodes. Create an algorithm to decide if T2 is a subtree of T1.
+of nodes. Create an algorithm to decide if T2 is a subtree of T1. **[CTCI, 86]**
 
 - You are given a binary tree in which each node contains a value. Design an algorithm
 to print all paths which sum up to that value. Note that it can be any path in the tree -
-it does not have to start at the root.
+it does not have to start at the root. **[CTCI, 86]**
 
 - Find a common ancestor of two different leaf nodes.
 
