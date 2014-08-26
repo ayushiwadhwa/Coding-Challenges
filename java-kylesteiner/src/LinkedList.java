@@ -99,4 +99,65 @@ public class LinkedList {
 		list = lt;
 		lt.next = gte;
 	}
+
+	/*
+	 * Problem 5
+	 */
+	public static LLNode sum(LLNode list1, LLNode list2) {
+		if (list1 == null) return list2;
+		if (list2 == null) return list1;
+
+		LLNode sum = new LLNode();
+		LLNode curSum = sum;
+		int carry = 0;
+		LLNode cur1 = list1;
+		LLNode cur2 = list2;
+		while (cur1 != null && cur2 != null) {
+			int digit = (cur1.data + cur2.data + carry) % 10;
+			carry = (cur1.data + cur2.data + carry) / 10;
+			newNodeToSum(curSum, digit);
+			cur1 = cur1.next;
+			cur2 = cur2.next;
+		}
+		while (cur1 != null) {
+			newNodeToSum(curSum, cur1.data);
+			cur1 = cur1.next;
+		}
+		while (cur2 != null) {
+			newNodeToSum(curSum, cur2.data);
+			cur2 = cur2.next;
+		}
+		return sum;
+	}
+
+	private static void newNodeToSum(LLNode node, int digit) {
+		if (node.data == null) {
+			node.data = digit;
+		} else {
+			node.next = new LLNode();
+			node.next.data = digit;
+			node = node.next;
+		}
+	}
+
+	/*
+	 * Problem 6
+	 */
+	public static LLNode loopStart(LLNode start) {
+		LLNode fast = start;
+		LLNode slow = start;
+		while (fast != null && fast.next != null) {
+			fast = fast.next.next;
+			slow = slow.next;
+			if (fast == slow) break;
+		}
+		if (fast == null || fast.next == null) return null;
+
+		slow = start;
+		while (fast != slow) {
+			fast = fast.next;
+			slow = slow.next;
+		}
+		return slow;
+	}
 }
