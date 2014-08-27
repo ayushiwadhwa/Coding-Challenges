@@ -48,7 +48,7 @@ To add your own solutions, fork this repo and create your own **LANGUAGE-GITHUBH
 
 - Write code to partition a linked list around a value x, such that all nodes less than x come before all nodes greater than or equal to x. **[CTCI, 77]**
 
-- Given two numbers represented as a linked list, calcuate and return their sum represented as a linked list. **[CTCI, 77]****[CTCI, 77]**
+- Given two numbers represented as a linked list, calcuate and return their sum represented as a linked list. **[CTCI, 77]**
 
 - Given a circular linked list, derive an algorithm which returns the node at the start of the loop. **[CTCI, 78]**
 
